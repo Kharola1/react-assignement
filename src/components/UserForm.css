@@ -1,0 +1,66 @@
+.user-form-container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+  }
+  
+  .user-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .input-error {
+    border-color: red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .gender-select {
+    margin-bottom: 10px;
+  }
+  
+  .mobile-input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile-input-container select {
+    width: 80px;
+    margin-right: 5px;
+  }
+  
+  .mobile-input-container input {
+    flex-grow: 1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
